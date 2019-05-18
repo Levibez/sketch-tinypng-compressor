@@ -1,15 +1,15 @@
 {
   "compatibleVersion": 3.8,
   "bundleVersion": 1,
-  "name": "Sketch TinyPng compressor",
-  "description": "Compress exported shit via TinyPng automatically",
+  "name": "Sketch TinyPNG compressor",
+  "description": "Compress exported shit via TinyPNG automatically",
   "author": "Alex D",
   "authorEmail": "rupta3@gmail.com",
-  "identifier": "com.sketchapp.plugins.tinypng-compressor",
+  "identifier": "com.rm.sketch.tinypng-compressor",
   "icon": "logo.png",
   "commands": [
     {
-      "name": "Enter TinyPng API key",
+      "name": "Enter TinyPNG API key",
       "identifier": "tinyPngKey",
       "script": "./ui.js",
       "handler": "requestTinyPngApiKey"
