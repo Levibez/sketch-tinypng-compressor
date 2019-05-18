@@ -1,7 +1,7 @@
 import * as fs from '@skpm/fs'
 import {prettyMs, prettyBytes, ratioForNumbersPercent} from './formatter'
 import {showMessage, sounds} from './ui'
-import {apiKey, config} from './configs';
+import {config} from './configs';
 import {compress} from './api';
 
 const environment = {
