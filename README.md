@@ -1,4 +1,4 @@
-# TinyPNG Compressor
+# TinyPNG Compressor :zap:
 
 A Plugin for Sketch that compresses your bitmap assets using TinyPNG API. This Plugin requires Sketch 3.8.
 
