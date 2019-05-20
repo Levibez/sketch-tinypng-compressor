@@ -65,13 +65,12 @@ export const compressAutomatically = (context) => {
   environment.startTime = Date.now()
   const apiKey = config().apiKey
 
-  if (!apiKey) {
-    showMessage('TinyPng API key is not specified — not compressing!', sounds.error)
+  if (environment.filesToCompress.length <= 0) {
     return
   }
 
-  if (environment.filesToCompress.length <= 0) {
-    showMessage('Nothing to compress', sounds.error)
+  if (!apiKey) {
+    showMessage('TinyPng API key is not specified — not compressing!', sounds.error)
     return
   }
 
