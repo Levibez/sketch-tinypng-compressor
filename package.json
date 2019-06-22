@@ -1,6 +1,6 @@
 {
   "name": "sketch-tinypng-compressor",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A Plugin that compresses bitmap assets using TinyPNG API. This Plugin *requires* Sketch 3.8.",
   "skpm": {
     "name": "Sketch TinyPng compressor",
