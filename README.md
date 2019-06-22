@@ -31,7 +31,7 @@ You're all set now!
 
 ## Look at me 
 
-__Sometimes TinyPNG API can respond with internal server error for whatever reason (especially when you're exporting a large image), in such cases you can try again, and that might help, though for some images it never helps.__
+__Sometimes TinyPNG API can respond with internal server error for whatever reason (especially when you're exporting a large image), in such cases you can try again, and that might help, though for some images it never helps. I hope to fix it in future releases__
 
 Anyway if you're exporting a bunch of small png icons or something like that — you should be fine :ok_hand:
 
